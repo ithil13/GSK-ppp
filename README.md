@@ -4,8 +4,8 @@ value of 13 by itself it does not need to be a part of a pair. The game
 ends when the board is clear or the deck has been emptied 3 times.
 
 To make the game I have used the following classes:
-Card and Deck
-Queue and Node
+Card and Deck,
+Queue and Node,
 Pyramid and PyramidNode
 
 Card and Deck are used to initialize the deck of cards and has methods for
