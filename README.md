@@ -16,4 +16,4 @@ the board and this is what I've used the Queue for.
 
 The Pyramid classes are used for the gameboard and the methods needed to play. 
 Each node is connected to two parent nodes and two child nodes and they share a child 
-node are with the node next to it. 
+node with the node next to it. 
