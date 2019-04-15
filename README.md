@@ -8,12 +8,12 @@ Card and Deck,
 Queue and Node,
 Pyramid and PyramidNode
 
-Card and Deck are used to initialize the deck of cards and has methods for
+Card and Deck are used to initialize the deck of cards and have methods for
 drawing and shuffling the deck and turning cards face up or face down.
 
 Initializing the gameboard and printing it is done row by row from the top of 
 the board and this is what I've used the Queue for.
 
 The Pyramid classes are used for the gameboard and the methods needed to play. 
-Each node is connected to two parent nodes and two child nodes and the child 
-nodes are shared with the nodes next to it. 
+Each node is connected to two parent nodes and two child nodes and they share a child 
+node are with the node next to it. 
