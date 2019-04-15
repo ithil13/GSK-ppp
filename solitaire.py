@@ -145,7 +145,7 @@ def play_game():
         print_game(board)
 
 def print_game(board):
-    os.system("cls")
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(board)
     if not board.game_over():
         print(board.deck)
